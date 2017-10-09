@@ -1,0 +1,192 @@
+body {
+    padding: 0px;
+    font: 14px "Helvetica";
+    margin:0px;
+    border:0px; 
+  }
+  h2{
+    margin: 0px;
+    padding: 0px;
+    border:none;
+  }
+  
+  a {
+    color: darkblue;
+  }
+  
+  a:link{
+    text-decoration: none;
+    color:#00B7FF
+  }
+  a:active{
+    text-decoration: none;
+    color:#00B7FF
+  }
+  a:visited{
+    text-decoration: none;
+    color:#00B7FF
+  }
+  a:hover{
+    text-decoration: none;
+    color:none;
+  }
+  
+  .logo{
+    display: flex;
+  font-size: 50px;
+  text-align: center;
+  size: 75px;
+  background-color: white;
+  padding-right: 300px;
+  height: 70px;
+  }
+  .nav1{
+    display: flex;
+    background-color:rgb(66, 82, 103);
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    flex-wrap: nowrap;
+  }
+  .nav-item{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nav-item:hover{
+    background-color: white;
+    cursor: pointer;
+  }
+  .nav-item:hover > a{
+    color: darkblue;
+    
+  }
+  .nav-item > a{
+  color: white;
+  }
+  
+  .magna{
+    color: orangered;
+  }
+  .abogados{
+    color: rgb(66, 82, 103)
+  }
+  .contenedor-imagenes-slider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 700px;
+    position: relative
+  }
+  .lema{
+    font-size: 45px;
+    position: absolute;
+    top:150px;
+    padding-left: 25px;
+    padding-right: 400px;
+    color: white;
+  }
+  .acerca-de-nosotros{
+    padding-top:100px;
+    background-color: white;
+  }
+  .acerca-de{
+    font-size: 35px;
+    color: rgb(66, 82, 103);
+    text-align: center;
+    display: block;
+    border-bottom: solid 1px rgb(66, 82, 103);
+  }
+  .texto-descriptivo{
+    padding-top:75px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+  }
+  .areas-de-trabajo{
+  padding-top:100px;
+  list-style-type: none;
+  }
+  .nuestras-areas-titulo{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(66, 82, 103);
+  }
+  .areas-trabajo{
+    font-size: 20px;
+  }
+  .contactenos{
+    background-color: rgb(66, 82, 103);
+    height: 400px;
+  }
+  .titulo-contactenos{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+  }
+  .link-contactenos{
+  text-align: center;
+  display: block;
+  color: orangered;
+  font-size: 20px;
+  border-radius: 5px;
+  border: solid 1px black;
+  margin-top:100px;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  };
+  .footer{
+    background-color: grey;
+    height: 500px;
+  }
+  .footer-info-bogota{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    background-color: darkgray;
+    border-top: 2px white solid;
+  }
+  .footer-info{
+    display: block;
+    text-align: center;
+    background-color: darkgray;
+  }
+  
+  .copyright{
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    background-color: darkgray;
+  }
+  .centrar-boton{
+    padding-left: 480px;
+  }
+
+  .texto-centrado{
+      text-align: center;
+      font-size: 20px;
+      background-color:  rgb(66, 82, 103);
+      color: black;
+      width: 100%;
+
+      
+  }
+  .areas-de-trabajo-texto{
+      color: white;
+      font-size: 20px;
+      background-color:orangered;
+      margin: 0;
+     padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+  }
